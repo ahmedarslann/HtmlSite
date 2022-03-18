@@ -1,0 +1,5 @@
+Gerekli gereksiz div class kullanmýþ olabilirim. buna kendim bi türlü karar veremedim.
+sitemi Brackets ile yazdým. 
+html ve css kodlarýndan oluþmaktadýr. belirli çok basit hatalar yapmýþ olabilirim. 
+sitemde çalýþmayan bi tane color codu var bir tanede fotoðrafý ayrýþtýran cod var.
+üye giriþi ve kayýt ol formunu tam tamamlamadým.veri tabanýna baðlamadým. 
