@@ -1,0 +1,180 @@
+<?php    
+
+echo <<<EOF;
+<!doctype html>
+
+<html lang="tr eng">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bütün Dillerin Kod Örnekleri"
+    <meta name="author" content="Ahmet Arif Arslan">
+    <meta name="keywords" content="HTML, CSS, C++, PHYTON, JAVASCRİPT, C, C#, PHP, RUBY, JAVA, PASCAL"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>KODLAMA ÖRNEKLERİ- TÜM DİLLER</title>
+ 
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="software.html">SOFTWARE</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <!-- MAIN SECTION -->
+        
+        <sectıon id="main-Slider" class="slider">
+            <div id="mainCaption" class="caption">
+                <h1>KOD ÖRNEKLERİ</h1>
+                <p>Tüm kodların çalışan örnekleri sitemizde mevcuttur.</p>
+
+
+            </div>
+            </sectıon>
+        
+        <!-- FEATURE SECTION -->
+        
+        <section id="features" class="sectionArea">
+            <div class="featuresTop">
+                <h2 class="sectionHeader">FEATURED SERVICE</h2>
+                <p>Diller</p>
+            </div>
+            <div class="featuresbody">
+                <div class="container">
+                    <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/softwore.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>C++</h3>
+                                <p>C++, Bell Laboratuvarlarından Bjarne Stroustrup tarafından 1979 yılından itibaren geliştirilmeye başlanmış, C'yi kapsayan ve çok paradigmalı, yaygın olarak kullanılan, genel amaçlı bir programlama dilidir. İlk olarak C With Classes olarak adlandırılmış, 1983 yılında ismi C++ olarak değiştirilmiştir</p>
+                                <a href="#" class="btnDetails">Daha Fazla Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                          <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/softwore2.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>JAVA</h3>
+                                <p>Java, Sun Microsystems mühendislerinden James Gosling tarafından geliştirilmeye başlanmış açık kodlu, nesneye yönelik, zeminden bağımsız, yüksek verimli, çok işlevli, yüksek seviye, adım adım işletilen bir dildir</p>
+                                <a href="#" class="btnDetails">Daha Fazla Detay</a>
+                            </div>
+                              </div>
+                    </div>
+                          <div class="col3">
+                        <div class="item">
+                            <div class="zoom">
+                                <img src="img/softwore3.jpg">
+                            </div>
+                            <div class="itemText">
+                                <h3>PYTHON</h3>
+                                <p>Python, nesne yönelimli, yorumlamalı, birimsel ve etkileşimli yüksek seviyeli bir programlama dilidir. Girintilere dayalı basit sözdizimi, dilin öğrenilmesini ve akılda kalmasını kolaylaştırır. Bu da ona söz diziminin ayrıntıları ile vakit yitirmeden programlama yapılmaya başlanabilen bir dil olma özelliği kazandırır.</p>
+                                <a href="#" class="btnDetails">Daha Fazla Detay</a>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        </section>
+        
+         <!-- PARALLAX SECTION -->
+        
+        <section id="parallax" class="sectionArea">
+            <div class="parallaxTop">
+              <h2 class="sectionHeader">FEATURED SERVICE</h2>
+                <p>coder</p>
+            </div>
+        </section>
+        
+                 <!-- ENGİNE SECTION -->
+        
+        <section id="engine" class="sectionArea">
+        <div class="engineTop">
+             <h2 class="sectionHeader">FEATURED SERVICE</h2>
+                <p>Resim metni</p>
+            </div>
+            <div class="engineBody">
+            <div class="container">
+                <div class="col2">
+                    <div class="engineContainer">
+                    <img src="img/yazılım1.jpg" class="imageOver">
+                        <div class="engineOverlay">
+                        <div class="engineText">Image Text</div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col2">
+                    <div class="engineContainer">
+                    <img src="img/yazılım2.jpg" class="imageOver">
+                        <div class="engineOverlay2">
+                        <div class="engineText">Image Text</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ENGINE SECTION -->
+        
+        <footer class="sectionArea">
+            <div class="container">
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>WELCOME TO OUR SITE</h3>
+                    <a href="index.html"><img src="img/logo2.png"></a>
+                    <p>Programcı, kendi  içinde kurduğu dünyada yaşamayı sever. Diller, kodlar, kahve ve bilgisayar ekranı hayatını sembolize eden yegane ögeledir. Biz de yazılım dillerinin örneklerini içerikleştirdik</p>
+                </div>
+                </div>
+                <div class="col3">
+                <div class="footerItem">
+                    <h3>QUICK LINKS</h3>
+                    <u1 class="footerLinks">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="yazılımkutuphanesı.html">YAZILIM KÜTÜPHANESİ</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </u1>
+                </div>
+                </div>
+                <div class="col3">
+                <div class="footerItem">
+                    <h3>BE SOCIAL WIHT US</h3>
+                    <u1 class="socialLinks">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </u1>
+                </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
+
+
+EOF;    
+
+
+?>
